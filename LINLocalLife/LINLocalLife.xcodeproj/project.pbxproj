@@ -14,6 +14,52 @@
 		C0E71D361C052D3800A817A5 /* LINLocalLifeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71D351C052D3800A817A5 /* LINLocalLifeUITests.m */; };
 		C0E71D7C1C052D8300A817A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71D4A1C052D8300A817A5 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
 		C0E71D7E1C052D8300A817A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71D4C1C052D8300A817A5 /* main.m */; settings = {ASSET_TAGS = (); }; };
+		C0E71DC81C0598D300A817A5 /* LINGuideViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71DC71C0598D300A817A5 /* LINGuideViewC.m */; settings = {ASSET_TAGS = (); }; };
+		C0E71DCB1C05A5C200A817A5 /* LINBaseViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71DCA1C05A5C200A817A5 /* LINBaseViewC.m */; settings = {ASSET_TAGS = (); }; };
+		C0E71DD41C05A64400A817A5 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = C0E71DCD1C05A64400A817A5 /* LICENSE */; settings = {ASSET_TAGS = (); }; };
+		C0E71DD51C05A64400A817A5 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71DCF1C05A64400A817A5 /* MBProgressHUD.m */; settings = {ASSET_TAGS = (); }; };
+		C0E71DD61C05A64400A817A5 /* README.mdown in Sources */ = {isa = PBXBuildFile; fileRef = C0E71DD01C05A64400A817A5 /* README.mdown */; settings = {ASSET_TAGS = (); }; };
+		C0E71DD71C05A64400A817A5 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71DD31C05A64400A817A5 /* UIView+Toast.m */; settings = {ASSET_TAGS = (); }; };
+		C0E71DDA1C05A73100A817A5 /* UIColor+Cate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71DD91C05A73100A817A5 /* UIColor+Cate.m */; settings = {ASSET_TAGS = (); }; };
+		C0E71DDD1C05A9E700A817A5 /* LINMainBaseViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71DDC1C05A9E700A817A5 /* LINMainBaseViewC.m */; settings = {ASSET_TAGS = (); }; };
+		C0E71DE21C05B1B700A817A5 /* LINMainNavC.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71DE11C05B1B700A817A5 /* LINMainNavC.m */; settings = {ASSET_TAGS = (); }; };
+		C0E71DE51C05C49000A817A5 /* LINHomeCollectionV.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71DE41C05C49000A817A5 /* LINHomeCollectionV.m */; settings = {ASSET_TAGS = (); }; };
+		C0E71DE81C05C52800A817A5 /* LINHotsC.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71DE71C05C52800A817A5 /* LINHotsC.m */; settings = {ASSET_TAGS = (); }; };
+		C0E71DEB1C05C57500A817A5 /* LINUsC.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71DEA1C05C57500A817A5 /* LINUsC.m */; settings = {ASSET_TAGS = (); }; };
+		C0E71DED1C05CB5900A817A5 /* home.plist in Resources */ = {isa = PBXBuildFile; fileRef = C0E71DEC1C05CB5900A817A5 /* home.plist */; settings = {ASSET_TAGS = (); }; };
+		C0E71DF01C05CC5800A817A5 /* LINCollectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71DEF1C05CC5800A817A5 /* LINCollectionModel.m */; settings = {ASSET_TAGS = (); }; };
+		C0E71DF31C05CCD000A817A5 /* LINFocusM.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71DF21C05CCD000A817A5 /* LINFocusM.m */; settings = {ASSET_TAGS = (); }; };
+		C0E71DF61C05CCE100A817A5 /* LINGroupM.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71DF51C05CCE100A817A5 /* LINGroupM.m */; settings = {ASSET_TAGS = (); }; };
+		C0E71DF91C05CCEF00A817A5 /* LINFamousM.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71DF81C05CCEF00A817A5 /* LINFamousM.m */; settings = {ASSET_TAGS = (); }; };
+		C0E71DFC1C05CCFE00A817A5 /* LINGuessM.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71DFB1C05CCFE00A817A5 /* LINGuessM.m */; settings = {ASSET_TAGS = (); }; };
+		C0E71E151C05CD8500A817A5 /* MJDictionaryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71DFF1C05CD8400A817A5 /* MJDictionaryCache.m */; settings = {ASSET_TAGS = (); }; };
+		C0E71E161C05CD8500A817A5 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71E021C05CD8400A817A5 /* MJExtensionConst.m */; settings = {ASSET_TAGS = (); }; };
+		C0E71E171C05CD8500A817A5 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71E041C05CD8400A817A5 /* MJFoundation.m */; settings = {ASSET_TAGS = (); }; };
+		C0E71E181C05CD8500A817A5 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71E061C05CD8400A817A5 /* MJProperty.m */; settings = {ASSET_TAGS = (); }; };
+		C0E71E191C05CD8500A817A5 /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71E081C05CD8400A817A5 /* MJPropertyKey.m */; settings = {ASSET_TAGS = (); }; };
+		C0E71E1A1C05CD8500A817A5 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71E0A1C05CD8400A817A5 /* MJPropertyType.m */; settings = {ASSET_TAGS = (); }; };
+		C0E71E1B1C05CD8500A817A5 /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71E0C1C05CD8400A817A5 /* NSObject+MJClass.m */; settings = {ASSET_TAGS = (); }; };
+		C0E71E1C1C05CD8500A817A5 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71E0E1C05CD8400A817A5 /* NSObject+MJCoding.m */; settings = {ASSET_TAGS = (); }; };
+		C0E71E1D1C05CD8500A817A5 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71E101C05CD8500A817A5 /* NSObject+MJKeyValue.m */; settings = {ASSET_TAGS = (); }; };
+		C0E71E1E1C05CD8500A817A5 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71E121C05CD8500A817A5 /* NSObject+MJProperty.m */; settings = {ASSET_TAGS = (); }; };
+		C0E71E1F1C05CD8500A817A5 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71E141C05CD8500A817A5 /* NSString+MJExtension.m */; settings = {ASSET_TAGS = (); }; };
+		C0E71F691C08672900A817A5 /* LINCircleController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71F681C08672900A817A5 /* LINCircleController.m */; settings = {ASSET_TAGS = (); }; };
+		C0E71F6C1C08678600A817A5 /* LINTabbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71F6B1C08678600A817A5 /* LINTabbarView.m */; settings = {ASSET_TAGS = (); }; };
+		C0E71F701C086C9100A817A5 /* UIView+Ex.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71F6F1C086C9100A817A5 /* UIView+Ex.m */; settings = {ASSET_TAGS = (); }; };
+		C0E71F8A1C086D5900A817A5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C0E71F721C086D5900A817A5 /* Info.plist */; settings = {ASSET_TAGS = (); }; };
+		C0E71F8B1C086D5900A817A5 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71F741C086D5900A817A5 /* MASCompositeConstraint.m */; settings = {ASSET_TAGS = (); }; };
+		C0E71F8C1C086D5900A817A5 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71F771C086D5900A817A5 /* MASConstraint.m */; settings = {ASSET_TAGS = (); }; };
+		C0E71F8D1C086D5900A817A5 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71F791C086D5900A817A5 /* MASConstraintMaker.m */; settings = {ASSET_TAGS = (); }; };
+		C0E71F8E1C086D5900A817A5 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71F7B1C086D5900A817A5 /* MASLayoutConstraint.m */; settings = {ASSET_TAGS = (); }; };
+		C0E71F8F1C086D5900A817A5 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71F7F1C086D5900A817A5 /* MASViewAttribute.m */; settings = {ASSET_TAGS = (); }; };
+		C0E71F901C086D5900A817A5 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71F811C086D5900A817A5 /* MASViewConstraint.m */; settings = {ASSET_TAGS = (); }; };
+		C0E71F911C086D5900A817A5 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71F831C086D5900A817A5 /* NSArray+MASAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		C0E71F921C086D5900A817A5 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71F861C086D5900A817A5 /* NSLayoutConstraint+MASDebugAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		C0E71F931C086D5900A817A5 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71F881C086D5900A817A5 /* View+MASAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		C0E71F961C09492F00A817A5 /* LINToolsController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71F951C09492F00A817A5 /* LINToolsController.m */; settings = {ASSET_TAGS = (); }; };
+		C0E71F991C09496100A817A5 /* LINOnliveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71F981C09496100A817A5 /* LINOnliveViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C0E71F9C1C09497700A817A5 /* LINShakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71F9B1C09497700A817A5 /* LINShakeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C0E71F9F1C09499A00A817A5 /* LINXmppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71F9E1C09499A00A817A5 /* LINXmppViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +94,101 @@
 		C0E71D491C052D8300A817A5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C0E71D4A1C052D8300A817A5 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C0E71D4C1C052D8300A817A5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C0E71DC61C0598D300A817A5 /* LINGuideViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINGuideViewC.h; sourceTree = "<group>"; };
+		C0E71DC71C0598D300A817A5 /* LINGuideViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINGuideViewC.m; sourceTree = "<group>"; };
+		C0E71DC91C05A5C200A817A5 /* LINBaseViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINBaseViewC.h; sourceTree = "<group>"; };
+		C0E71DCA1C05A5C200A817A5 /* LINBaseViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINBaseViewC.m; sourceTree = "<group>"; };
+		C0E71DCD1C05A64400A817A5 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C0E71DCE1C05A64400A817A5 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		C0E71DCF1C05A64400A817A5 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		C0E71DD01C05A64400A817A5 /* README.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.mdown; sourceTree = "<group>"; };
+		C0E71DD21C05A64400A817A5 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		C0E71DD31C05A64400A817A5 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		C0E71DD81C05A73100A817A5 /* UIColor+Cate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Cate.h"; sourceTree = "<group>"; };
+		C0E71DD91C05A73100A817A5 /* UIColor+Cate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Cate.m"; sourceTree = "<group>"; };
+		C0E71DDB1C05A9E700A817A5 /* LINMainBaseViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINMainBaseViewC.h; sourceTree = "<group>"; };
+		C0E71DDC1C05A9E700A817A5 /* LINMainBaseViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINMainBaseViewC.m; sourceTree = "<group>"; };
+		C0E71DDF1C05ABE000A817A5 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C0E71DE01C05B1B700A817A5 /* LINMainNavC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINMainNavC.h; sourceTree = "<group>"; };
+		C0E71DE11C05B1B700A817A5 /* LINMainNavC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINMainNavC.m; sourceTree = "<group>"; };
+		C0E71DE31C05C49000A817A5 /* LINHomeCollectionV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINHomeCollectionV.h; sourceTree = "<group>"; };
+		C0E71DE41C05C49000A817A5 /* LINHomeCollectionV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINHomeCollectionV.m; sourceTree = "<group>"; };
+		C0E71DE61C05C52800A817A5 /* LINHotsC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINHotsC.h; sourceTree = "<group>"; };
+		C0E71DE71C05C52800A817A5 /* LINHotsC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINHotsC.m; sourceTree = "<group>"; };
+		C0E71DE91C05C57500A817A5 /* LINUsC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINUsC.h; sourceTree = "<group>"; };
+		C0E71DEA1C05C57500A817A5 /* LINUsC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINUsC.m; sourceTree = "<group>"; };
+		C0E71DEC1C05CB5900A817A5 /* home.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = home.plist; sourceTree = "<group>"; };
+		C0E71DEE1C05CC5800A817A5 /* LINCollectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINCollectionModel.h; sourceTree = "<group>"; };
+		C0E71DEF1C05CC5800A817A5 /* LINCollectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINCollectionModel.m; sourceTree = "<group>"; };
+		C0E71DF11C05CCD000A817A5 /* LINFocusM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINFocusM.h; sourceTree = "<group>"; };
+		C0E71DF21C05CCD000A817A5 /* LINFocusM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINFocusM.m; sourceTree = "<group>"; };
+		C0E71DF41C05CCE100A817A5 /* LINGroupM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINGroupM.h; sourceTree = "<group>"; };
+		C0E71DF51C05CCE100A817A5 /* LINGroupM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINGroupM.m; sourceTree = "<group>"; };
+		C0E71DF71C05CCEF00A817A5 /* LINFamousM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINFamousM.h; sourceTree = "<group>"; };
+		C0E71DF81C05CCEF00A817A5 /* LINFamousM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINFamousM.m; sourceTree = "<group>"; };
+		C0E71DFA1C05CCFE00A817A5 /* LINGuessM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINGuessM.h; sourceTree = "<group>"; };
+		C0E71DFB1C05CCFE00A817A5 /* LINGuessM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINGuessM.m; sourceTree = "<group>"; };
+		C0E71DFE1C05CD8400A817A5 /* MJDictionaryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJDictionaryCache.h; sourceTree = "<group>"; };
+		C0E71DFF1C05CD8400A817A5 /* MJDictionaryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJDictionaryCache.m; sourceTree = "<group>"; };
+		C0E71E001C05CD8400A817A5 /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		C0E71E011C05CD8400A817A5 /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
+		C0E71E021C05CD8400A817A5 /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
+		C0E71E031C05CD8400A817A5 /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		C0E71E041C05CD8400A817A5 /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		C0E71E051C05CD8400A817A5 /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
+		C0E71E061C05CD8400A817A5 /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
+		C0E71E071C05CD8400A817A5 /* MJPropertyKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
+		C0E71E081C05CD8400A817A5 /* MJPropertyKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyKey.m; sourceTree = "<group>"; };
+		C0E71E091C05CD8400A817A5 /* MJPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
+		C0E71E0A1C05CD8400A817A5 /* MJPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
+		C0E71E0B1C05CD8400A817A5 /* NSObject+MJClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
+		C0E71E0C1C05CD8400A817A5 /* NSObject+MJClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJClass.m"; sourceTree = "<group>"; };
+		C0E71E0D1C05CD8400A817A5 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		C0E71E0E1C05CD8400A817A5 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		C0E71E0F1C05CD8500A817A5 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		C0E71E101C05CD8500A817A5 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		C0E71E111C05CD8500A817A5 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		C0E71E121C05CD8500A817A5 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		C0E71E131C05CD8500A817A5 /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
+		C0E71E141C05CD8500A817A5 /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		C0E71F671C08672900A817A5 /* LINCircleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINCircleController.h; sourceTree = "<group>"; };
+		C0E71F681C08672900A817A5 /* LINCircleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINCircleController.m; sourceTree = "<group>"; };
+		C0E71F6A1C08678600A817A5 /* LINTabbarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINTabbarView.h; sourceTree = "<group>"; };
+		C0E71F6B1C08678600A817A5 /* LINTabbarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINTabbarView.m; sourceTree = "<group>"; };
+		C0E71F6E1C086C9100A817A5 /* UIView+Ex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Ex.h"; sourceTree = "<group>"; };
+		C0E71F6F1C086C9100A817A5 /* UIView+Ex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Ex.m"; sourceTree = "<group>"; };
+		C0E71F721C086D5900A817A5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0E71F731C086D5900A817A5 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		C0E71F741C086D5900A817A5 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		C0E71F751C086D5900A817A5 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		C0E71F761C086D5900A817A5 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		C0E71F771C086D5900A817A5 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		C0E71F781C086D5900A817A5 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		C0E71F791C086D5900A817A5 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		C0E71F7A1C086D5900A817A5 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		C0E71F7B1C086D5900A817A5 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		C0E71F7C1C086D5900A817A5 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		C0E71F7D1C086D5900A817A5 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		C0E71F7E1C086D5900A817A5 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		C0E71F7F1C086D5900A817A5 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		C0E71F801C086D5900A817A5 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		C0E71F811C086D5900A817A5 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		C0E71F821C086D5900A817A5 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		C0E71F831C086D5900A817A5 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		C0E71F841C086D5900A817A5 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		C0E71F851C086D5900A817A5 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		C0E71F861C086D5900A817A5 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		C0E71F871C086D5900A817A5 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		C0E71F881C086D5900A817A5 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		C0E71F891C086D5900A817A5 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		C0E71F941C09492F00A817A5 /* LINToolsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINToolsController.h; sourceTree = "<group>"; };
+		C0E71F951C09492F00A817A5 /* LINToolsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINToolsController.m; sourceTree = "<group>"; };
+		C0E71F971C09496100A817A5 /* LINOnliveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINOnliveViewController.h; sourceTree = "<group>"; };
+		C0E71F981C09496100A817A5 /* LINOnliveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINOnliveViewController.m; sourceTree = "<group>"; };
+		C0E71F9A1C09497700A817A5 /* LINShakeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINShakeViewController.h; sourceTree = "<group>"; };
+		C0E71F9B1C09497700A817A5 /* LINShakeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINShakeViewController.m; sourceTree = "<group>"; };
+		C0E71F9D1C09499A00A817A5 /* LINXmppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINXmppViewController.h; sourceTree = "<group>"; };
+		C0E71F9E1C09499A00A817A5 /* LINXmppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINXmppViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +219,7 @@
 		C0E71D041C052D3800A817A5 = {
 			isa = PBXGroup;
 			children = (
+				C0E71DDF1C05ABE000A817A5 /* PrefixHeader.pch */,
 				C0E71D0F1C052D3800A817A5 /* LINLocalLife */,
 				C0E71D291C052D3800A817A5 /* LINLocalLifeTests */,
 				C0E71D341C052D3800A817A5 /* LINLocalLifeUITests */,
@@ -102,6 +244,7 @@
 				C0E71D481C052D8300A817A5 /* Other */,
 				C0E71D4D1C052D8300A817A5 /* UIs */,
 				C0E71D191C052D3800A817A5 /* Main.storyboard */,
+				C0E71DEC1C05CB5900A817A5 /* home.plist */,
 				C0E71D1C1C052D3800A817A5 /* Assets.xcassets */,
 				C0E71D1E1C052D3800A817A5 /* LaunchScreen.storyboard */,
 				C0E71D101C052D3800A817A5 /* Supporting Files */,
@@ -148,6 +291,12 @@
 		C0E71D441C052D8300A817A5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C0E71DC91C05A5C200A817A5 /* LINBaseViewC.h */,
+				C0E71DCA1C05A5C200A817A5 /* LINBaseViewC.m */,
+				C0E71DDB1C05A9E700A817A5 /* LINMainBaseViewC.h */,
+				C0E71DDC1C05A9E700A817A5 /* LINMainBaseViewC.m */,
+				C0E71DE01C05B1B700A817A5 /* LINMainNavC.h */,
+				C0E71DE11C05B1B700A817A5 /* LINMainNavC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -169,6 +318,8 @@
 		C0E71D471C052D8300A817A5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C0E71F6A1C08678600A817A5 /* LINTabbarView.h */,
+				C0E71F6B1C08678600A817A5 /* LINTabbarView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -176,6 +327,12 @@
 		C0E71D481C052D8300A817A5 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				C0E71F711C086D5900A817A5 /* Masonry */,
+				C0E71F6D1C086C9100A817A5 /* UIView分类 */,
+				C0E71DD81C05A73100A817A5 /* UIColor+Cate.h */,
+				C0E71DD91C05A73100A817A5 /* UIColor+Cate.m */,
+				C0E71DCC1C05A64400A817A5 /* MBProgressHUD */,
+				C0E71DD11C05A64400A817A5 /* Toast */,
 				C0E71D491C052D8300A817A5 /* AppDelegate.h */,
 				C0E71D4A1C052D8300A817A5 /* AppDelegate.m */,
 				C0E71D211C052D3800A817A5 /* Info.plist */,
@@ -211,6 +368,8 @@
 		C0E71D4F1C052D8300A817A5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C0E71F671C08672900A817A5 /* LINCircleController.h */,
+				C0E71F681C08672900A817A5 /* LINCircleController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -250,6 +409,8 @@
 		C0E71D541C052D8300A817A5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C0E71DC61C0598D300A817A5 /* LINGuideViewC.h */,
+				C0E71DC71C0598D300A817A5 /* LINGuideViewC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -289,6 +450,8 @@
 		C0E71D591C052D8300A817A5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C0E71DE31C05C49000A817A5 /* LINHomeCollectionV.h */,
+				C0E71DE41C05C49000A817A5 /* LINHomeCollectionV.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -296,6 +459,16 @@
 		C0E71D5A1C052D8300A817A5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C0E71DEE1C05CC5800A817A5 /* LINCollectionModel.h */,
+				C0E71DEF1C05CC5800A817A5 /* LINCollectionModel.m */,
+				C0E71DF11C05CCD000A817A5 /* LINFocusM.h */,
+				C0E71DF21C05CCD000A817A5 /* LINFocusM.m */,
+				C0E71DF41C05CCE100A817A5 /* LINGroupM.h */,
+				C0E71DF51C05CCE100A817A5 /* LINGroupM.m */,
+				C0E71DF71C05CCEF00A817A5 /* LINFamousM.h */,
+				C0E71DF81C05CCEF00A817A5 /* LINFamousM.m */,
+				C0E71DFA1C05CCFE00A817A5 /* LINGuessM.h */,
+				C0E71DFB1C05CCFE00A817A5 /* LINGuessM.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -328,6 +501,8 @@
 		C0E71D5E1C052D8300A817A5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C0E71DE61C05C52800A817A5 /* LINHotsC.h */,
+				C0E71DE71C05C52800A817A5 /* LINHotsC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -378,6 +553,8 @@
 		C0E71D641C052D8300A817A5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C0E71F971C09496100A817A5 /* LINOnliveViewController.h */,
+				C0E71F981C09496100A817A5 /* LINOnliveViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -417,6 +594,8 @@
 		C0E71D691C052D8300A817A5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C0E71F9A1C09497700A817A5 /* LINShakeViewController.h */,
+				C0E71F9B1C09497700A817A5 /* LINShakeViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -456,6 +635,8 @@
 		C0E71D6E1C052D8300A817A5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C0E71DE91C05C57500A817A5 /* LINUsC.h */,
+				C0E71DEA1C05C57500A817A5 /* LINUsC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -495,6 +676,8 @@
 		C0E71D731C052D8300A817A5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C0E71F9D1C09499A00A817A5 /* LINXmppViewController.h */,
+				C0E71F9E1C09499A00A817A5 /* LINXmppViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -534,6 +717,8 @@
 		C0E71D781C052D8300A817A5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C0E71F941C09492F00A817A5 /* LINToolsController.h */,
+				C0E71F951C09492F00A817A5 /* LINToolsController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -557,6 +742,97 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		C0E71DCC1C05A64400A817A5 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				C0E71DCD1C05A64400A817A5 /* LICENSE */,
+				C0E71DCE1C05A64400A817A5 /* MBProgressHUD.h */,
+				C0E71DCF1C05A64400A817A5 /* MBProgressHUD.m */,
+				C0E71DD01C05A64400A817A5 /* README.mdown */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		C0E71DD11C05A64400A817A5 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				C0E71DFD1C05CD8400A817A5 /* MJExtension */,
+				C0E71DD21C05A64400A817A5 /* UIView+Toast.h */,
+				C0E71DD31C05A64400A817A5 /* UIView+Toast.m */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		C0E71DFD1C05CD8400A817A5 /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				C0E71DFE1C05CD8400A817A5 /* MJDictionaryCache.h */,
+				C0E71DFF1C05CD8400A817A5 /* MJDictionaryCache.m */,
+				C0E71E001C05CD8400A817A5 /* MJExtension.h */,
+				C0E71E011C05CD8400A817A5 /* MJExtensionConst.h */,
+				C0E71E021C05CD8400A817A5 /* MJExtensionConst.m */,
+				C0E71E031C05CD8400A817A5 /* MJFoundation.h */,
+				C0E71E041C05CD8400A817A5 /* MJFoundation.m */,
+				C0E71E051C05CD8400A817A5 /* MJProperty.h */,
+				C0E71E061C05CD8400A817A5 /* MJProperty.m */,
+				C0E71E071C05CD8400A817A5 /* MJPropertyKey.h */,
+				C0E71E081C05CD8400A817A5 /* MJPropertyKey.m */,
+				C0E71E091C05CD8400A817A5 /* MJPropertyType.h */,
+				C0E71E0A1C05CD8400A817A5 /* MJPropertyType.m */,
+				C0E71E0B1C05CD8400A817A5 /* NSObject+MJClass.h */,
+				C0E71E0C1C05CD8400A817A5 /* NSObject+MJClass.m */,
+				C0E71E0D1C05CD8400A817A5 /* NSObject+MJCoding.h */,
+				C0E71E0E1C05CD8400A817A5 /* NSObject+MJCoding.m */,
+				C0E71E0F1C05CD8500A817A5 /* NSObject+MJKeyValue.h */,
+				C0E71E101C05CD8500A817A5 /* NSObject+MJKeyValue.m */,
+				C0E71E111C05CD8500A817A5 /* NSObject+MJProperty.h */,
+				C0E71E121C05CD8500A817A5 /* NSObject+MJProperty.m */,
+				C0E71E131C05CD8500A817A5 /* NSString+MJExtension.h */,
+				C0E71E141C05CD8500A817A5 /* NSString+MJExtension.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		C0E71F6D1C086C9100A817A5 /* UIView分类 */ = {
+			isa = PBXGroup;
+			children = (
+				C0E71F6E1C086C9100A817A5 /* UIView+Ex.h */,
+				C0E71F6F1C086C9100A817A5 /* UIView+Ex.m */,
+			);
+			path = "UIView分类";
+			sourceTree = "<group>";
+		};
+		C0E71F711C086D5900A817A5 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				C0E71F721C086D5900A817A5 /* Info.plist */,
+				C0E71F731C086D5900A817A5 /* MASCompositeConstraint.h */,
+				C0E71F741C086D5900A817A5 /* MASCompositeConstraint.m */,
+				C0E71F751C086D5900A817A5 /* MASConstraint+Private.h */,
+				C0E71F761C086D5900A817A5 /* MASConstraint.h */,
+				C0E71F771C086D5900A817A5 /* MASConstraint.m */,
+				C0E71F781C086D5900A817A5 /* MASConstraintMaker.h */,
+				C0E71F791C086D5900A817A5 /* MASConstraintMaker.m */,
+				C0E71F7A1C086D5900A817A5 /* MASLayoutConstraint.h */,
+				C0E71F7B1C086D5900A817A5 /* MASLayoutConstraint.m */,
+				C0E71F7C1C086D5900A817A5 /* Masonry.h */,
+				C0E71F7D1C086D5900A817A5 /* MASUtilities.h */,
+				C0E71F7E1C086D5900A817A5 /* MASViewAttribute.h */,
+				C0E71F7F1C086D5900A817A5 /* MASViewAttribute.m */,
+				C0E71F801C086D5900A817A5 /* MASViewConstraint.h */,
+				C0E71F811C086D5900A817A5 /* MASViewConstraint.m */,
+				C0E71F821C086D5900A817A5 /* NSArray+MASAdditions.h */,
+				C0E71F831C086D5900A817A5 /* NSArray+MASAdditions.m */,
+				C0E71F841C086D5900A817A5 /* NSArray+MASShorthandAdditions.h */,
+				C0E71F851C086D5900A817A5 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				C0E71F861C086D5900A817A5 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				C0E71F871C086D5900A817A5 /* View+MASAdditions.h */,
+				C0E71F881C086D5900A817A5 /* View+MASAdditions.m */,
+				C0E71F891C086D5900A817A5 /* View+MASShorthandAdditions.h */,
+			);
+			path = Masonry;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -664,6 +940,9 @@
 			files = (
 				C0E71D201C052D3800A817A5 /* LaunchScreen.storyboard in Resources */,
 				C0E71D1D1C052D3800A817A5 /* Assets.xcassets in Resources */,
+				C0E71F8A1C086D5900A817A5 /* Info.plist in Resources */,
+				C0E71DD41C05A64400A817A5 /* LICENSE in Resources */,
+				C0E71DED1C05CB5900A817A5 /* home.plist in Resources */,
 				C0E71D1B1C052D3800A817A5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -689,8 +968,51 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0E71DE21C05B1B700A817A5 /* LINMainNavC.m in Sources */,
+				C0E71DFC1C05CCFE00A817A5 /* LINGuessM.m in Sources */,
+				C0E71F911C086D5900A817A5 /* NSArray+MASAdditions.m in Sources */,
+				C0E71F931C086D5900A817A5 /* View+MASAdditions.m in Sources */,
+				C0E71DE81C05C52800A817A5 /* LINHotsC.m in Sources */,
+				C0E71F901C086D5900A817A5 /* MASViewConstraint.m in Sources */,
+				C0E71DF91C05CCEF00A817A5 /* LINFamousM.m in Sources */,
 				C0E71D7C1C052D8300A817A5 /* AppDelegate.m in Sources */,
+				C0E71DF61C05CCE100A817A5 /* LINGroupM.m in Sources */,
+				C0E71DCB1C05A5C200A817A5 /* LINBaseViewC.m in Sources */,
+				C0E71F701C086C9100A817A5 /* UIView+Ex.m in Sources */,
+				C0E71E191C05CD8500A817A5 /* MJPropertyKey.m in Sources */,
+				C0E71DD51C05A64400A817A5 /* MBProgressHUD.m in Sources */,
+				C0E71F691C08672900A817A5 /* LINCircleController.m in Sources */,
+				C0E71E1A1C05CD8500A817A5 /* MJPropertyType.m in Sources */,
+				C0E71DF01C05CC5800A817A5 /* LINCollectionModel.m in Sources */,
+				C0E71DD61C05A64400A817A5 /* README.mdown in Sources */,
+				C0E71DDD1C05A9E700A817A5 /* LINMainBaseViewC.m in Sources */,
+				C0E71F6C1C08678600A817A5 /* LINTabbarView.m in Sources */,
+				C0E71F8F1C086D5900A817A5 /* MASViewAttribute.m in Sources */,
+				C0E71F8E1C086D5900A817A5 /* MASLayoutConstraint.m in Sources */,
+				C0E71F8B1C086D5900A817A5 /* MASCompositeConstraint.m in Sources */,
+				C0E71E1D1C05CD8500A817A5 /* NSObject+MJKeyValue.m in Sources */,
+				C0E71DEB1C05C57500A817A5 /* LINUsC.m in Sources */,
+				C0E71F921C086D5900A817A5 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				C0E71DE51C05C49000A817A5 /* LINHomeCollectionV.m in Sources */,
+				C0E71E1F1C05CD8500A817A5 /* NSString+MJExtension.m in Sources */,
+				C0E71F991C09496100A817A5 /* LINOnliveViewController.m in Sources */,
+				C0E71F8D1C086D5900A817A5 /* MASConstraintMaker.m in Sources */,
+				C0E71DD71C05A64400A817A5 /* UIView+Toast.m in Sources */,
 				C0E71D7E1C052D8300A817A5 /* main.m in Sources */,
+				C0E71E171C05CD8500A817A5 /* MJFoundation.m in Sources */,
+				C0E71DDA1C05A73100A817A5 /* UIColor+Cate.m in Sources */,
+				C0E71F9F1C09499A00A817A5 /* LINXmppViewController.m in Sources */,
+				C0E71E161C05CD8500A817A5 /* MJExtensionConst.m in Sources */,
+				C0E71E1C1C05CD8500A817A5 /* NSObject+MJCoding.m in Sources */,
+				C0E71DC81C0598D300A817A5 /* LINGuideViewC.m in Sources */,
+				C0E71E1E1C05CD8500A817A5 /* NSObject+MJProperty.m in Sources */,
+				C0E71E151C05CD8500A817A5 /* MJDictionaryCache.m in Sources */,
+				C0E71DF31C05CCD000A817A5 /* LINFocusM.m in Sources */,
+				C0E71E1B1C05CD8500A817A5 /* NSObject+MJClass.m in Sources */,
+				C0E71F8C1C086D5900A817A5 /* MASConstraint.m in Sources */,
+				C0E71F9C1C09497700A817A5 /* LINShakeViewController.m in Sources */,
+				C0E71E181C05CD8500A817A5 /* MJProperty.m in Sources */,
+				C0E71F961C09492F00A817A5 /* LINToolsController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -829,7 +1151,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
 				INFOPLIST_FILE = LINLocalLife/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.family.LINLocalLife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -840,7 +1165,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
 				INFOPLIST_FILE = LINLocalLife/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.family.LINLocalLife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -914,6 +1242,7 @@
 				C0E71D3C1C052D3800A817A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0E71D3D1C052D3800A817A5 /* Build configuration list for PBXNativeTarget "LINLocalLifeTests" */ = {
 			isa = XCConfigurationList;
@@ -922,6 +1251,7 @@
 				C0E71D3F1C052D3800A817A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0E71D401C052D3800A817A5 /* Build configuration list for PBXNativeTarget "LINLocalLifeUITests" */ = {
 			isa = XCConfigurationList;
@@ -930,6 +1260,7 @@
 				C0E71D421C052D3800A817A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
