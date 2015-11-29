@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>icon</key>
+		<string>TabBar_Assets_Sel</string>
+		<key>placeholder</key>
+		<string>用户名</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>10000008</string>
+		<key>placeholder</key>
+		<string>输入密码</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>adw_icon_travel_normal</string>
+		<key>placeholder</key>
+		<string>确定mima</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>10000003</string>
+		<key>placeholder</key>
+		<string>手机号</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>login_phone</string>
+		<key>placeholder</key>
+		<string>输入验证码</string>
+	</dict>
+</array>
+</plist>

@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53FB7A89053D6F0F3C4EC901 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9FA4A808AB13CD69852873E /* libPods.a */; };
+		C0A7F8B01C0A093000D1203A /* LINRegisteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A7F8AF1C0A093000D1203A /* LINRegisteViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C0A7F8B31C0A0EEC00D1203A /* LINRegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A7F8B21C0A0EEC00D1203A /* LINRegisterView.m */; settings = {ASSET_TAGS = (); }; };
+		C0A7F8B51C0A18DF00D1203A /* registe.plist in Resources */ = {isa = PBXBuildFile; fileRef = C0A7F8B41C0A18DF00D1203A /* registe.plist */; settings = {ASSET_TAGS = (); }; };
+		C0A7F8B91C0A197300D1203A /* LINRegisterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A7F8B81C0A197300D1203A /* LINRegisterModel.m */; settings = {ASSET_TAGS = (); }; };
+		C0A7F8BC1C0A497200D1203A /* LINRulesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A7F8BB1C0A497200D1203A /* LINRulesViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C0A7F8BF1C0AD1AF00D1203A /* LINNavBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A7F8BE1C0AD1AF00D1203A /* LINNavBarView.m */; settings = {ASSET_TAGS = (); }; };
 		C0E71D1B1C052D3800A817A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0E71D191C052D3800A817A5 /* Main.storyboard */; };
 		C0E71D1D1C052D3800A817A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0E71D1C1C052D3800A817A5 /* Assets.xcassets */; };
 		C0E71D201C052D3800A817A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0E71D1E1C052D3800A817A5 /* LaunchScreen.storyboard */; };
@@ -60,6 +67,10 @@
 		C0E71F991C09496100A817A5 /* LINOnliveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71F981C09496100A817A5 /* LINOnliveViewController.m */; settings = {ASSET_TAGS = (); }; };
 		C0E71F9C1C09497700A817A5 /* LINShakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71F9B1C09497700A817A5 /* LINShakeViewController.m */; settings = {ASSET_TAGS = (); }; };
 		C0E71F9F1C09499A00A817A5 /* LINXmppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71F9E1C09499A00A817A5 /* LINXmppViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C0E71FA21C097C3F00A817A5 /* LINHomeLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71FA11C097C3F00A817A5 /* LINHomeLoginViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C0E71FA51C097C6800A817A5 /* LINLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71FA41C097C6800A817A5 /* LINLoginView.m */; settings = {ASSET_TAGS = (); }; };
+		C0E71FA81C09AA4300A817A5 /* LINDel_HightlightBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71FA71C09AA4300A817A5 /* LINDel_HightlightBtn.m */; settings = {ASSET_TAGS = (); }; };
+		C0E71FAF1C09F43F00A817A5 /* third_login.plist in Resources */ = {isa = PBXBuildFile; fileRef = C0E71FAE1C09F43F00A817A5 /* third_login.plist */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +91,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A9FA4A808AB13CD69852873E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF5B46BD41DF18AB0A7A4A33 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		C0A7F8AE1C0A093000D1203A /* LINRegisteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINRegisteViewController.h; sourceTree = "<group>"; };
+		C0A7F8AF1C0A093000D1203A /* LINRegisteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINRegisteViewController.m; sourceTree = "<group>"; };
+		C0A7F8B11C0A0EEC00D1203A /* LINRegisterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINRegisterView.h; sourceTree = "<group>"; };
+		C0A7F8B21C0A0EEC00D1203A /* LINRegisterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINRegisterView.m; sourceTree = "<group>"; };
+		C0A7F8B41C0A18DF00D1203A /* registe.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = registe.plist; sourceTree = "<group>"; };
+		C0A7F8B71C0A197300D1203A /* LINRegisterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINRegisterModel.h; sourceTree = "<group>"; };
+		C0A7F8B81C0A197300D1203A /* LINRegisterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINRegisterModel.m; sourceTree = "<group>"; };
+		C0A7F8BA1C0A497200D1203A /* LINRulesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINRulesViewController.h; sourceTree = "<group>"; };
+		C0A7F8BB1C0A497200D1203A /* LINRulesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINRulesViewController.m; sourceTree = "<group>"; };
+		C0A7F8BD1C0AD1AF00D1203A /* LINNavBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINNavBarView.h; sourceTree = "<group>"; };
+		C0A7F8BE1C0AD1AF00D1203A /* LINNavBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINNavBarView.m; sourceTree = "<group>"; };
 		C0E71D0D1C052D3800A817A5 /* LINLocalLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LINLocalLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0E71D1A1C052D3800A817A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C0E71D1C1C052D3800A817A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -189,6 +213,14 @@
 		C0E71F9B1C09497700A817A5 /* LINShakeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINShakeViewController.m; sourceTree = "<group>"; };
 		C0E71F9D1C09499A00A817A5 /* LINXmppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINXmppViewController.h; sourceTree = "<group>"; };
 		C0E71F9E1C09499A00A817A5 /* LINXmppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINXmppViewController.m; sourceTree = "<group>"; };
+		C0E71FA01C097C3F00A817A5 /* LINHomeLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINHomeLoginViewController.h; sourceTree = "<group>"; };
+		C0E71FA11C097C3F00A817A5 /* LINHomeLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINHomeLoginViewController.m; sourceTree = "<group>"; };
+		C0E71FA31C097C6800A817A5 /* LINLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINLoginView.h; sourceTree = "<group>"; };
+		C0E71FA41C097C6800A817A5 /* LINLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINLoginView.m; sourceTree = "<group>"; };
+		C0E71FA61C09AA4300A817A5 /* LINDel_HightlightBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINDel_HightlightBtn.h; sourceTree = "<group>"; };
+		C0E71FA71C09AA4300A817A5 /* LINDel_HightlightBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINDel_HightlightBtn.m; sourceTree = "<group>"; };
+		C0E71FAE1C09F43F00A817A5 /* third_login.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = third_login.plist; sourceTree = "<group>"; };
+		EA83C43FA61787CF945D17DE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +228,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53FB7A89053D6F0F3C4EC901 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +249,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		60E62261FE4B542FE8206432 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF5B46BD41DF18AB0A7A4A33 /* Pods.debug.xcconfig */,
+				EA83C43FA61787CF945D17DE /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C0A7F8B61C0A194800D1203A /* RegisterM */ = {
+			isa = PBXGroup;
+			children = (
+				C0A7F8B71C0A197300D1203A /* LINRegisterModel.h */,
+				C0A7F8B81C0A197300D1203A /* LINRegisterModel.m */,
+			);
+			name = RegisterM;
+			sourceTree = "<group>";
+		};
 		C0E71D041C052D3800A817A5 = {
 			isa = PBXGroup;
 			children = (
@@ -224,6 +275,8 @@
 				C0E71D291C052D3800A817A5 /* LINLocalLifeTests */,
 				C0E71D341C052D3800A817A5 /* LINLocalLifeUITests */,
 				C0E71D0E1C052D3800A817A5 /* Products */,
+				60E62261FE4B542FE8206432 /* Pods */,
+				FE8CD9107EC80E4FF8D30FA7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -320,6 +373,8 @@
 			children = (
 				C0E71F6A1C08678600A817A5 /* LINTabbarView.h */,
 				C0E71F6B1C08678600A817A5 /* LINTabbarView.m */,
+				C0E71FA61C09AA4300A817A5 /* LINDel_HightlightBtn.h */,
+				C0E71FA71C09AA4300A817A5 /* LINDel_HightlightBtn.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -439,9 +494,9 @@
 		C0E71D581C052D8300A817A5 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				C0E71FAD1C09F43F00A817A5 /* Other */,
 				C0E71D591C052D8300A817A5 /* Controller */,
 				C0E71D5A1C052D8300A817A5 /* Model */,
-				C0E71D5B1C052D8300A817A5 /* Tool */,
 				C0E71D5C1C052D8300A817A5 /* View */,
 			);
 			path = Home;
@@ -452,6 +507,12 @@
 			children = (
 				C0E71DE31C05C49000A817A5 /* LINHomeCollectionV.h */,
 				C0E71DE41C05C49000A817A5 /* LINHomeCollectionV.m */,
+				C0E71FA01C097C3F00A817A5 /* LINHomeLoginViewController.h */,
+				C0E71FA11C097C3F00A817A5 /* LINHomeLoginViewController.m */,
+				C0A7F8AE1C0A093000D1203A /* LINRegisteViewController.h */,
+				C0A7F8AF1C0A093000D1203A /* LINRegisteViewController.m */,
+				C0A7F8BA1C0A497200D1203A /* LINRulesViewController.h */,
+				C0A7F8BB1C0A497200D1203A /* LINRulesViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -459,6 +520,7 @@
 		C0E71D5A1C052D8300A817A5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C0A7F8B61C0A194800D1203A /* RegisterM */,
 				C0E71DEE1C05CC5800A817A5 /* LINCollectionModel.h */,
 				C0E71DEF1C05CC5800A817A5 /* LINCollectionModel.m */,
 				C0E71DF11C05CCD000A817A5 /* LINFocusM.h */,
@@ -473,16 +535,15 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		C0E71D5B1C052D8300A817A5 /* Tool */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Tool;
-			sourceTree = "<group>";
-		};
 		C0E71D5C1C052D8300A817A5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C0E71FA31C097C6800A817A5 /* LINLoginView.h */,
+				C0E71FA41C097C6800A817A5 /* LINLoginView.m */,
+				C0A7F8B11C0A0EEC00D1203A /* LINRegisterView.h */,
+				C0A7F8B21C0A0EEC00D1203A /* LINRegisterView.m */,
+				C0A7F8BD1C0AD1AF00D1203A /* LINNavBarView.h */,
+				C0A7F8BE1C0AD1AF00D1203A /* LINNavBarView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -835,6 +896,23 @@
 			path = Masonry;
 			sourceTree = "<group>";
 		};
+		C0E71FAD1C09F43F00A817A5 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				C0E71FAE1C09F43F00A817A5 /* third_login.plist */,
+				C0A7F8B41C0A18DF00D1203A /* registe.plist */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		FE8CD9107EC80E4FF8D30FA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9FA4A808AB13CD69852873E /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -842,9 +920,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C0E71D3A1C052D3800A817A5 /* Build configuration list for PBXNativeTarget "LINLocalLife" */;
 			buildPhases = (
+				D524969EC654F92B8172EB51 /* Check Pods Manifest.lock */,
 				C0E71D091C052D3800A817A5 /* Sources */,
 				C0E71D0A1C052D3800A817A5 /* Frameworks */,
 				C0E71D0B1C052D3800A817A5 /* Resources */,
+				AB42D6914B3EB060899E17E9 /* Embed Pods Frameworks */,
+				1B11E63DA08F5150D2ED1727 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -940,9 +1021,11 @@
 			files = (
 				C0E71D201C052D3800A817A5 /* LaunchScreen.storyboard in Resources */,
 				C0E71D1D1C052D3800A817A5 /* Assets.xcassets in Resources */,
+				C0A7F8B51C0A18DF00D1203A /* registe.plist in Resources */,
 				C0E71F8A1C086D5900A817A5 /* Info.plist in Resources */,
 				C0E71DD41C05A64400A817A5 /* LICENSE in Resources */,
 				C0E71DED1C05CB5900A817A5 /* home.plist in Resources */,
+				C0E71FAF1C09F43F00A817A5 /* third_login.plist in Resources */,
 				C0E71D1B1C052D3800A817A5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -963,11 +1046,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B11E63DA08F5150D2ED1727 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB42D6914B3EB060899E17E9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D524969EC654F92B8172EB51 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C0E71D091C052D3800A817A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0A7F8B01C0A093000D1203A /* LINRegisteViewController.m in Sources */,
 				C0E71DE21C05B1B700A817A5 /* LINMainNavC.m in Sources */,
 				C0E71DFC1C05CCFE00A817A5 /* LINGuessM.m in Sources */,
 				C0E71F911C086D5900A817A5 /* NSArray+MASAdditions.m in Sources */,
@@ -989,10 +1121,13 @@
 				C0E71F6C1C08678600A817A5 /* LINTabbarView.m in Sources */,
 				C0E71F8F1C086D5900A817A5 /* MASViewAttribute.m in Sources */,
 				C0E71F8E1C086D5900A817A5 /* MASLayoutConstraint.m in Sources */,
+				C0A7F8B91C0A197300D1203A /* LINRegisterModel.m in Sources */,
 				C0E71F8B1C086D5900A817A5 /* MASCompositeConstraint.m in Sources */,
 				C0E71E1D1C05CD8500A817A5 /* NSObject+MJKeyValue.m in Sources */,
 				C0E71DEB1C05C57500A817A5 /* LINUsC.m in Sources */,
+				C0A7F8B31C0A0EEC00D1203A /* LINRegisterView.m in Sources */,
 				C0E71F921C086D5900A817A5 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				C0A7F8BC1C0A497200D1203A /* LINRulesViewController.m in Sources */,
 				C0E71DE51C05C49000A817A5 /* LINHomeCollectionV.m in Sources */,
 				C0E71E1F1C05CD8500A817A5 /* NSString+MJExtension.m in Sources */,
 				C0E71F991C09496100A817A5 /* LINOnliveViewController.m in Sources */,
@@ -1008,9 +1143,13 @@
 				C0E71E1E1C05CD8500A817A5 /* NSObject+MJProperty.m in Sources */,
 				C0E71E151C05CD8500A817A5 /* MJDictionaryCache.m in Sources */,
 				C0E71DF31C05CCD000A817A5 /* LINFocusM.m in Sources */,
+				C0E71FA81C09AA4300A817A5 /* LINDel_HightlightBtn.m in Sources */,
 				C0E71E1B1C05CD8500A817A5 /* NSObject+MJClass.m in Sources */,
 				C0E71F8C1C086D5900A817A5 /* MASConstraint.m in Sources */,
 				C0E71F9C1C09497700A817A5 /* LINShakeViewController.m in Sources */,
+				C0E71FA51C097C6800A817A5 /* LINLoginView.m in Sources */,
+				C0A7F8BF1C0AD1AF00D1203A /* LINNavBarView.m in Sources */,
+				C0E71FA21C097C3F00A817A5 /* LINHomeLoginViewController.m in Sources */,
 				C0E71E181C05CD8500A817A5 /* MJProperty.m in Sources */,
 				C0E71F961C09492F00A817A5 /* LINToolsController.m in Sources */,
 			);
@@ -1149,6 +1288,7 @@
 		};
 		C0E71D3B1C052D3800A817A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF5B46BD41DF18AB0A7A4A33 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1163,6 +1303,7 @@
 		};
 		C0E71D3C1C052D3800A817A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA83C43FA61787CF945D17DE /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

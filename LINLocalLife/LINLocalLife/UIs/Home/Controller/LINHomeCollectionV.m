@@ -8,12 +8,18 @@
 
 #import "LINHomeCollectionV.h"
 #import "LINCollectionModel.h"
+#import "LINHomeLoginViewController.h"
+#import "LINMainNavC.h"
+
+
 
 @interface LINHomeCollectionV ()
 
 
 @property(nonatomic, strong) NSDictionary *datas;
 @property(nonatomic, strong) LINCollectionModel *model;
+
+@property(nonatomic, copy) TabbarHiddenBlock hiddenBlcok;
 
 
 
@@ -49,16 +55,20 @@ static NSString * const reuseIdentifier = @"Cell";
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"登录／注册" style:UIBarButtonItemStylePlain target:self action:@selector(rightItemClicked:)];
     self.navigationItem.title = @"青岛生活圈";
     [self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:reuseIdentifier];
- 
 
 }
+
 
 
 - (void)rightItemClicked:(UIBarButtonItem *)sender{
-
-
-
+    LINHomeLoginViewController *loginController = [[LINHomeLoginViewController alloc] init];
+    
+    LINMainNavC *nav = (LINMainNavC *)self.navigationController;
+//    nav.isTabbarHidden(YES);
+    [nav pushViewController:loginController animated:YES];
 }
+
+
 
 - (instancetype)init{
     if (self = [super init]) {
@@ -84,10 +94,6 @@ static NSString * const reuseIdentifier = @"Cell";
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:reuseIdentifier forIndexPath:indexPath];
-    
-    
-    
-    
     return cell;
 }
 

@@ -19,7 +19,7 @@
 
 - (void)viewDidLoad{
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor randColor];
+    self.view.backgroundColor = [UIColor redColor];
 }
 
 - (void)showLoadView{

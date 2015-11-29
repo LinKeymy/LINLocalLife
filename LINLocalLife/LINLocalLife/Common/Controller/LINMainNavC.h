@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+
+
+typedef  void(^TabbarHiddenBlock)(BOOL);
+
+
 @interface LINMainNavC : UINavigationController
+
+@property(nonatomic, copy) TabbarHiddenBlock isTabbarHidden;
 
 @end

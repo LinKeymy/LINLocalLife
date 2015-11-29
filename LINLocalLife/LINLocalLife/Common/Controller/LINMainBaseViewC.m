@@ -23,6 +23,7 @@
 @interface LINMainBaseViewC ()
 
 @property(nonatomic, strong) UIViewController *currentViewController;
+@property(nonatomic, weak) LINTabbarView *tabbarView;
 
 
 @end
@@ -32,17 +33,27 @@
 - (void)viewDidLoad{
     [super viewDidLoad];
     NSArray *controllerArray = @[@"LINHomeCollectionV",@"LINHotsC",@"LINCircleController",@"LINOnliveViewController",@"LINXmppViewController",@"LINShakeViewController",@"LINOnliveViewController",@"LINUsC"];
+    
+    LINTabbarView *tabbarView = [[LINTabbarView alloc] initWithFrame:(CGRect){0,self.view.h - 49 * 2,self.view.w,49 * 2}];
+
+    [self.view addSubview:tabbarView];
+    
+    self.tabbarView = tabbarView;
     for (int i = 0; i < controllerArray.count; i++) {
         Class className = NSClassFromString(controllerArray[i]);
         UIViewController *ViewController = [[className alloc] init];
+        
         LINMainNavC *navC = [[LINMainNavC alloc] initWithRootViewController:ViewController];
+        
+            navC.isTabbarHidden = ^(BOOL isHidden){
+                self.tabbarView.hidden = isHidden;
+        };
         ViewController.navigationItem.title = NSStringFromClass([className class]);
         ViewController.view.backgroundColor = [UIColor randColor];
         navC.view.backgroundColor = [UIColor randColor];
         [self addChildViewController:navC];
     }
     
-    LINTabbarView *tabbarView = [[LINTabbarView alloc] initWithFrame:(CGRect){0,self.view.h - 49 * 2,self.view.w,49 * 2}];
     tabbarView.pushControllerBlock = ^(UIButton *sender){
         [self.currentViewController.view removeFromSuperview];
         UIViewController *viewControllr = self.childViewControllers[sender.tag];
@@ -50,16 +61,6 @@
         self.currentViewController = viewControllr;
         [self.view bringSubviewToFront:tabbarView];
     };
-    [self.view addSubview:tabbarView];
-   
-    
-
-
-
-
-    
-    
-
 }
 
 @end
