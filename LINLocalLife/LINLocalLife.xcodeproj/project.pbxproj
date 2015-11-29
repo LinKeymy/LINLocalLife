@@ -14,6 +14,10 @@
 		C0A7F8B91C0A197300D1203A /* LINRegisterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A7F8B81C0A197300D1203A /* LINRegisterModel.m */; settings = {ASSET_TAGS = (); }; };
 		C0A7F8BC1C0A497200D1203A /* LINRulesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A7F8BB1C0A497200D1203A /* LINRulesViewController.m */; settings = {ASSET_TAGS = (); }; };
 		C0A7F8BF1C0AD1AF00D1203A /* LINNavBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A7F8BE1C0AD1AF00D1203A /* LINNavBarView.m */; settings = {ASSET_TAGS = (); }; };
+		C0A7F8C61C0B1D9000D1203A /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A7F8C21C0B1D9000D1203A /* MBProgressHUD+MJ.m */; settings = {ASSET_TAGS = (); }; };
+		C0A7F8C71C0B1D9000D1203A /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C0A7F8C31C0B1D9000D1203A /* MBProgressHUD.bundle */; settings = {ASSET_TAGS = (); }; };
+		C0A7F8C81C0B1D9000D1203A /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A7F8C51C0B1D9000D1203A /* MBProgressHUD.m */; settings = {ASSET_TAGS = (); }; };
+		C0A7F8CB1C0B568200D1203A /* UITextField+LIN_Text_RegEx.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A7F8CA1C0B568200D1203A /* UITextField+LIN_Text_RegEx.m */; settings = {ASSET_TAGS = (); }; };
 		C0E71D1B1C052D3800A817A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0E71D191C052D3800A817A5 /* Main.storyboard */; };
 		C0E71D1D1C052D3800A817A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0E71D1C1C052D3800A817A5 /* Assets.xcassets */; };
 		C0E71D201C052D3800A817A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0E71D1E1C052D3800A817A5 /* LaunchScreen.storyboard */; };
@@ -23,9 +27,6 @@
 		C0E71D7E1C052D8300A817A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71D4C1C052D8300A817A5 /* main.m */; settings = {ASSET_TAGS = (); }; };
 		C0E71DC81C0598D300A817A5 /* LINGuideViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71DC71C0598D300A817A5 /* LINGuideViewC.m */; settings = {ASSET_TAGS = (); }; };
 		C0E71DCB1C05A5C200A817A5 /* LINBaseViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71DCA1C05A5C200A817A5 /* LINBaseViewC.m */; settings = {ASSET_TAGS = (); }; };
-		C0E71DD41C05A64400A817A5 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = C0E71DCD1C05A64400A817A5 /* LICENSE */; settings = {ASSET_TAGS = (); }; };
-		C0E71DD51C05A64400A817A5 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71DCF1C05A64400A817A5 /* MBProgressHUD.m */; settings = {ASSET_TAGS = (); }; };
-		C0E71DD61C05A64400A817A5 /* README.mdown in Sources */ = {isa = PBXBuildFile; fileRef = C0E71DD01C05A64400A817A5 /* README.mdown */; settings = {ASSET_TAGS = (); }; };
 		C0E71DD71C05A64400A817A5 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71DD31C05A64400A817A5 /* UIView+Toast.m */; settings = {ASSET_TAGS = (); }; };
 		C0E71DDA1C05A73100A817A5 /* UIColor+Cate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71DD91C05A73100A817A5 /* UIColor+Cate.m */; settings = {ASSET_TAGS = (); }; };
 		C0E71DDD1C05A9E700A817A5 /* LINMainBaseViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E71DDC1C05A9E700A817A5 /* LINMainBaseViewC.m */; settings = {ASSET_TAGS = (); }; };
@@ -104,6 +105,13 @@
 		C0A7F8BB1C0A497200D1203A /* LINRulesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINRulesViewController.m; sourceTree = "<group>"; };
 		C0A7F8BD1C0AD1AF00D1203A /* LINNavBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINNavBarView.h; sourceTree = "<group>"; };
 		C0A7F8BE1C0AD1AF00D1203A /* LINNavBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINNavBarView.m; sourceTree = "<group>"; };
+		C0A7F8C11C0B1D9000D1203A /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		C0A7F8C21C0B1D9000D1203A /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
+		C0A7F8C31C0B1D9000D1203A /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		C0A7F8C41C0B1D9000D1203A /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		C0A7F8C51C0B1D9000D1203A /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		C0A7F8C91C0B568200D1203A /* UITextField+LIN_Text_RegEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+LIN_Text_RegEx.h"; sourceTree = "<group>"; };
+		C0A7F8CA1C0B568200D1203A /* UITextField+LIN_Text_RegEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+LIN_Text_RegEx.m"; sourceTree = "<group>"; };
 		C0E71D0D1C052D3800A817A5 /* LINLocalLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LINLocalLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0E71D1A1C052D3800A817A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C0E71D1C1C052D3800A817A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -122,10 +130,6 @@
 		C0E71DC71C0598D300A817A5 /* LINGuideViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINGuideViewC.m; sourceTree = "<group>"; };
 		C0E71DC91C05A5C200A817A5 /* LINBaseViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINBaseViewC.h; sourceTree = "<group>"; };
 		C0E71DCA1C05A5C200A817A5 /* LINBaseViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINBaseViewC.m; sourceTree = "<group>"; };
-		C0E71DCD1C05A64400A817A5 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		C0E71DCE1C05A64400A817A5 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		C0E71DCF1C05A64400A817A5 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		C0E71DD01C05A64400A817A5 /* README.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.mdown; sourceTree = "<group>"; };
 		C0E71DD21C05A64400A817A5 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
 		C0E71DD31C05A64400A817A5 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
 		C0E71DD81C05A73100A817A5 /* UIColor+Cate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Cate.h"; sourceTree = "<group>"; };
@@ -267,6 +271,18 @@
 			name = RegisterM;
 			sourceTree = "<group>";
 		};
+		C0A7F8C01C0B1D9000D1203A /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				C0A7F8C11C0B1D9000D1203A /* MBProgressHUD+MJ.h */,
+				C0A7F8C21C0B1D9000D1203A /* MBProgressHUD+MJ.m */,
+				C0A7F8C31C0B1D9000D1203A /* MBProgressHUD.bundle */,
+				C0A7F8C41C0B1D9000D1203A /* MBProgressHUD.h */,
+				C0A7F8C51C0B1D9000D1203A /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
 		C0E71D041C052D3800A817A5 = {
 			isa = PBXGroup;
 			children = (
@@ -382,16 +398,18 @@
 		C0E71D481C052D8300A817A5 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				C0A7F8C01C0B1D9000D1203A /* MBProgressHUD */,
 				C0E71F711C086D5900A817A5 /* Masonry */,
 				C0E71F6D1C086C9100A817A5 /* UIView分类 */,
 				C0E71DD81C05A73100A817A5 /* UIColor+Cate.h */,
 				C0E71DD91C05A73100A817A5 /* UIColor+Cate.m */,
-				C0E71DCC1C05A64400A817A5 /* MBProgressHUD */,
 				C0E71DD11C05A64400A817A5 /* Toast */,
 				C0E71D491C052D8300A817A5 /* AppDelegate.h */,
 				C0E71D4A1C052D8300A817A5 /* AppDelegate.m */,
 				C0E71D211C052D3800A817A5 /* Info.plist */,
 				C0E71D4C1C052D8300A817A5 /* main.m */,
+				C0A7F8C91C0B568200D1203A /* UITextField+LIN_Text_RegEx.h */,
+				C0A7F8CA1C0B568200D1203A /* UITextField+LIN_Text_RegEx.m */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -805,17 +823,6 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		C0E71DCC1C05A64400A817A5 /* MBProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				C0E71DCD1C05A64400A817A5 /* LICENSE */,
-				C0E71DCE1C05A64400A817A5 /* MBProgressHUD.h */,
-				C0E71DCF1C05A64400A817A5 /* MBProgressHUD.m */,
-				C0E71DD01C05A64400A817A5 /* README.mdown */,
-			);
-			path = MBProgressHUD;
-			sourceTree = "<group>";
-		};
 		C0E71DD11C05A64400A817A5 /* Toast */ = {
 			isa = PBXGroup;
 			children = (
@@ -1020,10 +1027,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0E71D201C052D3800A817A5 /* LaunchScreen.storyboard in Resources */,
+				C0A7F8C71C0B1D9000D1203A /* MBProgressHUD.bundle in Resources */,
 				C0E71D1D1C052D3800A817A5 /* Assets.xcassets in Resources */,
 				C0A7F8B51C0A18DF00D1203A /* registe.plist in Resources */,
 				C0E71F8A1C086D5900A817A5 /* Info.plist in Resources */,
-				C0E71DD41C05A64400A817A5 /* LICENSE in Resources */,
 				C0E71DED1C05CB5900A817A5 /* home.plist in Resources */,
 				C0E71FAF1C09F43F00A817A5 /* third_login.plist in Resources */,
 				C0E71D1B1C052D3800A817A5 /* Main.storyboard in Resources */,
@@ -1112,19 +1119,19 @@
 				C0E71DCB1C05A5C200A817A5 /* LINBaseViewC.m in Sources */,
 				C0E71F701C086C9100A817A5 /* UIView+Ex.m in Sources */,
 				C0E71E191C05CD8500A817A5 /* MJPropertyKey.m in Sources */,
-				C0E71DD51C05A64400A817A5 /* MBProgressHUD.m in Sources */,
 				C0E71F691C08672900A817A5 /* LINCircleController.m in Sources */,
 				C0E71E1A1C05CD8500A817A5 /* MJPropertyType.m in Sources */,
 				C0E71DF01C05CC5800A817A5 /* LINCollectionModel.m in Sources */,
-				C0E71DD61C05A64400A817A5 /* README.mdown in Sources */,
 				C0E71DDD1C05A9E700A817A5 /* LINMainBaseViewC.m in Sources */,
 				C0E71F6C1C08678600A817A5 /* LINTabbarView.m in Sources */,
+				C0A7F8CB1C0B568200D1203A /* UITextField+LIN_Text_RegEx.m in Sources */,
 				C0E71F8F1C086D5900A817A5 /* MASViewAttribute.m in Sources */,
 				C0E71F8E1C086D5900A817A5 /* MASLayoutConstraint.m in Sources */,
 				C0A7F8B91C0A197300D1203A /* LINRegisterModel.m in Sources */,
 				C0E71F8B1C086D5900A817A5 /* MASCompositeConstraint.m in Sources */,
 				C0E71E1D1C05CD8500A817A5 /* NSObject+MJKeyValue.m in Sources */,
 				C0E71DEB1C05C57500A817A5 /* LINUsC.m in Sources */,
+				C0A7F8C81C0B1D9000D1203A /* MBProgressHUD.m in Sources */,
 				C0A7F8B31C0A0EEC00D1203A /* LINRegisterView.m in Sources */,
 				C0E71F921C086D5900A817A5 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				C0A7F8BC1C0A497200D1203A /* LINRulesViewController.m in Sources */,
@@ -1145,6 +1152,7 @@
 				C0E71DF31C05CCD000A817A5 /* LINFocusM.m in Sources */,
 				C0E71FA81C09AA4300A817A5 /* LINDel_HightlightBtn.m in Sources */,
 				C0E71E1B1C05CD8500A817A5 /* NSObject+MJClass.m in Sources */,
+				C0A7F8C61C0B1D9000D1203A /* MBProgressHUD+MJ.m in Sources */,
 				C0E71F8C1C086D5900A817A5 /* MASConstraint.m in Sources */,
 				C0E71F9C1C09497700A817A5 /* LINShakeViewController.m in Sources */,
 				C0E71FA51C097C6800A817A5 /* LINLoginView.m in Sources */,

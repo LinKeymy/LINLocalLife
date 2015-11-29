@@ -9,10 +9,11 @@
 #import <UIKit/UIKit.h>
 
 
-typedef void(^PushToRegisterBlock)();
+typedef void(^PushBlock)();
 
 @interface LINLoginView : UIView
 
-@property(nonatomic, copy) PushToRegisterBlock pushToRegisterBlock;
+@property(nonatomic, copy) PushBlock pushToRegisterBlock;
+@property(nonatomic, copy) PushBlock pushToSuccessViewBlock;
 
 @end

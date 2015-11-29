@@ -10,9 +10,12 @@
 #import "LINGuideViewC.h"
 #import "LINMainBaseViewC.h"
 
+#define NotfirstUsing  @"first"
 
 
 @interface AppDelegate ()
+
+
 
 @end
 
@@ -21,19 +24,20 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    UICollectionViewFlowLayout *flowLayout =  [[UICollectionViewFlowLayout alloc] init];
-    [application setStatusBarStyle:UIStatusBarStyleLightContent animated:YES];
-    flowLayout.minimumLineSpacing = 0;
-    flowLayout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
-    flowLayout.itemSize = [UIScreen mainScreen].bounds.size;
-    LINGuideViewC *guideViewC = [[LINGuideViewC alloc] initWithCollectionViewLayout:flowLayout];
+    LINGuideViewC *guideViewC = [[LINGuideViewC alloc] init];
     LINMainBaseViewC *mainC = [[LINMainBaseViewC alloc] init];
-
-    guideViewC.goHomeBlock = ^{
-    
+    //使用偏好保持是否是第一次使用的信息
+    if (![[NSUserDefaults standardUserDefaults] valueForKey:NotfirstUsing]) {
+        self.window.rootViewController = guideViewC;
+        guideViewC.goHomeBlock = ^{
+            NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+            [defaults setValue:@NO forKey:NotfirstUsing];
+            self.window.rootViewController = mainC;
+        };
+    }else{
         self.window.rootViewController = mainC;
-    };
-    self.window.rootViewController = mainC;
+    }
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

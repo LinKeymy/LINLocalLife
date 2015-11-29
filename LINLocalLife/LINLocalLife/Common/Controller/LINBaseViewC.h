@@ -9,7 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface LINBaseViewC : UIViewController
-- (void)showLoadView;
-- (void)removeHud;
-- (void)showToast:(NSString *)message;
+
 @end

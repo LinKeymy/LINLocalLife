@@ -9,6 +9,7 @@
 #import "LINHomeLoginViewController.h"
 #import "LINLoginView.h"
 #import "LINRegisteViewController.h"
+#import "linBaseViewC.h"
 
 @interface LINHomeLoginViewController ()
 
@@ -36,6 +37,10 @@
     loginView.pushToRegisterBlock = ^{
         LINRegisteViewController *registeViewController = [[LINRegisteViewController alloc] init];
         [self.navigationController pushViewController:registeViewController animated:YES];
+    };
+    loginView.pushToSuccessViewBlock = ^{
+        LINBaseViewC *base = [[LINBaseViewC alloc] init];
+        [self.navigationController pushViewController:base animated:YES];
     };
     [self.view addSubview:loginView];
     

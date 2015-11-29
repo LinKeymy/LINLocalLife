@@ -12,30 +12,26 @@
 #import "UIView+Toast.h"
 
 @implementation LINBaseViewC
-{
-    MBProgressHUD *_hud;
-}
-
 
 - (void)viewDidLoad{
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor redColor];
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    CATextLayer *textLayer = [CATextLayer layer];
+    textLayer.bounds = (CGRect){0,0,300,100};
+    textLayer.position = self.view.center;
+    [self.view.layer addSublayer:textLayer];
+    textLayer.foregroundColor = (GET_GLOBAL_COLOR).CGColor;
+    textLayer.alignmentMode = kCAAlignmentCenter;
+    textLayer.wrapped = YES;
+    UIFont *font = [UIFont systemFontOfSize:25];
+    CFStringRef fontName = (__bridge CFStringRef)font.fontName;
+    CGFontRef fontRef = CGFontCreateWithFontName(fontName);
+    textLayer.font = fontRef;
+    textLayer.fontSize = font.pointSize;
+    CGFontRelease(fontRef);
+    
+    textLayer.string = @"欢迎来到小安的世界";
 }
 
-- (void)showLoadView{
-    _hud = [[MBProgressHUD alloc] initWithView:self.view];
-    [_hud show:YES];
-    [self.view addSubview:_hud];
-}
-
-- (void)removeHud{
-    if (_hud) {
-        [_hud removeFromSuperViewOnHide];
-    }
-    [_hud hide:YES];
-}
-
-- (void)showToast:(NSString *)message{
-    [self.view makeToast:message];
-}
 @end
